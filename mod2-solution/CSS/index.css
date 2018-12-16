@@ -1,0 +1,62 @@
+/* Base styles */
+* {
+	box-sizing: border-box;
+}
+
+/*body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}*/
+
+h1 {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.row div {
+	width: 30%;
+	height: 20%;
+	border: 1px solid black;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 20px;
+	position: relative;
+}
+
+h3 {
+	border: 1px solid black;
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	text-align: center;
+	position: relative;
+	left: 255px;
+}
+
+/* Desktop version */
+@media (min-width: 992px){
+	.row div {
+		float: left;
+	}
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 991px){
+	.row div {
+		float: left;
+	}
+
+	#d1, #d2 {
+		width: 50%;
+		height: 50%;
+	}
+
+	#d3 {
+		width: 100%;
+	}
+
+}
+
+/* Mobile version */
+@media (max-width: 767px){
+
+}
