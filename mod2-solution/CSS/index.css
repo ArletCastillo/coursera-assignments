@@ -56,8 +56,16 @@ p {
 		height: 10%;
 	}
 
+	#chick-h3, #beef-h3 {
+		left: 72%;
+	}
+
 	#d3 {
 		width: 93.3%;
+	}
+
+	#sushi-h3 {
+		left: 86.3%;
 	}
 
 }
@@ -68,5 +76,9 @@ p {
 		width: 50%;
 		position: relative;
 		left: 23%;
+	}
+
+	h3 {
+		left: 67.3%;
 	}
 }
