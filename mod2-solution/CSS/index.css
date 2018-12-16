@@ -19,6 +19,7 @@ h1 {
 	width: 30%;
 	height: 20%;
 	position: relative;
+	background-color: #FFCC80;
 }
 
 h3 {
@@ -29,6 +30,7 @@ h3 {
 	text-align: center;
 	position: relative;
 	left: 70%;
+	background-color: #FF7043;
 }
 
 /* Desktop version */
