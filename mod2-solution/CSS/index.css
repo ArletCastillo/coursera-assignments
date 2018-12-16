@@ -3,22 +3,21 @@
 	box-sizing: border-box;
 }
 
-/*body {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}*/
-
-h1 {
-	text-align: center;
+body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+h1 {
+	text-align: center;
+}
+
 .row div {
-	width: 30%;
-	height: 20%;
 	border: 1px solid black;
 	padding-right: 10px;
 	padding-left: 10px;
-	margin: 20px;
+	margin: 15px;
+	width: 30%;
+	height: 20%;
 	position: relative;
 }
 
@@ -29,7 +28,7 @@ h3 {
 	width: 120px;
 	text-align: center;
 	position: relative;
-	left: 255px;
+	left: 70%;
 }
 
 /* Desktop version */
@@ -46,17 +45,21 @@ h3 {
 	}
 
 	#d1, #d2 {
-		width: 50%;
-		height: 50%;
+		width: 45%;
+		height: 10%;
 	}
 
 	#d3 {
-		width: 100%;
+		width: 93.3%;
 	}
 
 }
 
 /* Mobile version */
 @media (max-width: 767px){
-
+	.row div {
+		width: 50%;
+		position: relative;
+		left: 23%;
+	}
 }
