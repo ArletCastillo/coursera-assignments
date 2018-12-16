@@ -4,7 +4,8 @@
 }
 
 body {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: 'B612 Mono', monospace;
+	
 }
 
 h1 {
@@ -28,9 +29,13 @@ h3 {
 	padding: 0;
 	width: 120px;
 	text-align: center;
-	position: relative;
-	left: 70%;
+	position: absolute;
+	left: 69%;
 	background-color: #FF7043;
+}
+
+p {
+	padding-top: 10px;
 }
 
 /* Desktop version */
