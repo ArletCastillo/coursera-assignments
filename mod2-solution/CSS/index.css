@@ -76,9 +76,7 @@ p {
 /* Mobile version */
 @media (max-width: 767px){
 	.row div {
-		width: 50%;
-		position: relative;
-		left: 23%;
+		width: 80%; 
 	}
 
 	h3 {
