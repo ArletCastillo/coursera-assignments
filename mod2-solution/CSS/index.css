@@ -30,7 +30,8 @@ h3 {
 	width: 120px;
 	text-align: center;
 	position: absolute;
-	left: 69%;
+	right: 0px;
+	top: 0px; 
 	background-color: #FF7043;
 }
 
@@ -57,7 +58,8 @@ p {
 	}
 
 	#chick-h3, #beef-h3 {
-		left: 72%;
+		right: 0px;
+		top: 0px; 
 	}
 
 	#d3 {
@@ -65,7 +67,8 @@ p {
 	}
 
 	#sushi-h3 {
-		left: 86.3%;
+		right: 0px;
+		top: 0px; 
 	}
 
 }
@@ -79,6 +82,7 @@ p {
 	}
 
 	h3 {
-		left: 67.3%;
+		right: 0px;
+		top: 0px; 
 	}
 }
