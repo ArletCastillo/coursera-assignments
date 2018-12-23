@@ -4307,7 +4307,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 4px;
 }
 .navbar-toggle:focus {
-  outline: 0;
+  outline: 0; 
 }
 .navbar-toggle .icon-bar {
   display: block;
@@ -4535,7 +4535,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #ddd; 
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
