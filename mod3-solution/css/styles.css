@@ -56,3 +56,14 @@ ul#nav-list {
 	margin-top: 0;
 }
 /** END HEADER **/
+
+/** MAIN CONTENT **/
+#main-content {
+	color: #61122f;
+}
+
+section {
+	background-color: #FFCDD2;
+	margin-bottom: 50px;
+}
+/** END MAIN CONTENT **/
